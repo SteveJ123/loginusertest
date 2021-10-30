@@ -100,7 +100,7 @@ class UserComponent {
         }
     }
     pageReload() {
-        this.router.navigate(['home']).then(() => {
+        this.router.navigate(['']).then(() => {
             window.location.reload();
         });
     }
