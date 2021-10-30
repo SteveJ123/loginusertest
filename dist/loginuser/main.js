@@ -477,8 +477,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] },
+    { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] },
+    // {path:'home', component:HomeComponent},
     { path: "user", component: _user_user_component__WEBPACK_IMPORTED_MODULE_3__["UserComponent"], canActivate: [_authguard_service__WEBPACK_IMPORTED_MODULE_1__["AuthguardService"]] }
 ];
 class AppRoutingModule {
