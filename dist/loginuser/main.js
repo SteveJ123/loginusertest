@@ -90,9 +90,6 @@ class UserComponent {
         this.router = router;
     }
     ngOnInit() {
-        if (!this.userDetail) {
-            this.router.navigate(['']);
-        }
         if (JSON.parse(localStorage.getItem("userData"))) {
             this.userDetail = JSON.parse(localStorage.getItem("userData"));
             console.log(this.userDetail);
