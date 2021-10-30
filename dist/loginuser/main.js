@@ -483,7 +483,6 @@ const routes = [
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] },
     // {path:'home', component:HomeComponent},
     { path: "user", component: _user_user_component__WEBPACK_IMPORTED_MODULE_3__["UserComponent"], canActivate: [_authguard_service__WEBPACK_IMPORTED_MODULE_1__["AuthguardService"]] },
-    { path: "**", component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] }
 ];
 class AppRoutingModule {
 }
